@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/start2Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="startButtonClicked"
+            android:text="@string/start2_title"
+            android:layout_x="285dp"
+            android:layout_y="17dp"
+            android:nestedScrollingEnabled="true" />
+
+        <Button
+            android:id="@+id/stopButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="285dp"
+            android:layout_y="17dp"
+            android:layout_marginRight="15dip"
+            android:onClick="stopButtonClicked"
+            android:text="@string/stop_title" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/timer_title"
+            android:textSize="23.0sp"
+            android:layout_x="259dp"
+            android:layout_y="-15dp" />
+
+        <TextView
+            android:id="@+id/countDownTextView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/zero_time"
+            android:textSize="23.0sp"
+            android:gravity="left"
+            android:padding="3.0dip"
+
+            android:layout_x="175dp"
+            android:layout_y="-3dp"
+            android:layout_weight="0.56" />
+
+    </LinearLayout>
+
+    <AbsoluteLayout
+        android:id="@+id/AbsoluteLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="86.0dip"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="time" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="16.0dip"
+            android:layout_y="36.0dip"
+            android:text="Hours" />
+
+        <EditText
+            android:id="@+id/EditText01"
+            android:layout_width="74.0dip"
+            android:layout_height="wrap_content"
+            android:layout_x="92.0dip"
+            android:layout_y="2.0dip"
+            android:ems="10"
+            android:inputType="time" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="102.0dip"
+            android:layout_y="36.0dip"
+            android:text="Minutes" />
+
+        <TextView
+            android:id="@+id/timeTextView"
+            android:layout_width="273dp"
+            android:layout_height="151dp"
+            android:padding="10.0dip"
+            android:text="@string/zero_time"
+            android:textSize="95.0sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_x="55dp"
+            android:layout_y="125dp" />
+
+    </AbsoluteLayout>
+
+</LinearLayout>

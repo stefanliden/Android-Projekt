@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/f"
+
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="360dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/question3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question3"
+            android:textColor="@color/White"
+            android:textSize="10pt" />
+
+        <Spinner
+            android:id="@+id/q3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Red"
+            android:entries="@array/q3"
+            android:prompt="@string/q3" />
+
+        <TextView
+            android:id="@+id/question4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question4"
+            android:textColor="@color/White"
+            android:textSize="10pt" />
+
+        <Spinner
+            android:id="@+id/q4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Red"
+            android:entries="@array/q4"
+            android:prompt="@string/q4" />
+
+        <TextView
+            android:id="@+id/question5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question5"
+            android:textColor="@color/White"
+            android:textSize="10pt" />
+
+        <Spinner
+            android:id="@+id/q5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Red"
+            android:entries="@array/q5"
+            android:prompt="@string/q5" />
+        
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/D:/Downloads/Utvardering/app/src/main/res/layout/activity_main_quest0.xml -->

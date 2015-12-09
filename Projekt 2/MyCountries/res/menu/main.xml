@@ -1,0 +1,48 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.examples.start.MainActivity" >
+    
+    <item
+        android:id="@+id/addButton"
+        android:orderInCategory="100"
+        android:title="@string/add_button_name"
+        app:showAsAction="ifRoom"/>
+    
+    <item
+        android:id="@+id/sortAscendingByYear"
+        android:orderInCategory="200"
+        android:title="@string/sort_ascending_by_year"
+        app:showAsAction="never"/>
+    
+     <item
+        android:id="@+id/sortDescendingByYear"
+        android:orderInCategory="200"
+        android:title="@string/sort_descending_by_year"
+        app:showAsAction="never"/>
+     
+      <item
+        android:id="@+id/sortAscendingByCountry"
+        android:orderInCategory="200"
+        android:title="@string/sort_ascending_by_country"
+        app:showAsAction="never"/>
+      
+       <item
+        android:id="@+id/sortDescendingByCountry"
+        android:orderInCategory="200"
+        android:title="@string/sort_descending_by_country"
+        app:showAsAction="never"/>
+       
+       <item
+        android:id="@+id/preferences"
+        android:orderInCategory="200"
+        android:title="@string/preferences_title"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="300"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+
+</menu>

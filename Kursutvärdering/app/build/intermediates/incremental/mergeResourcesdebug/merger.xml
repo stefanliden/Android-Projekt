@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\Downloads\Utvardering\app\src\main\res"><file name="ic_launcher" path="D:\Downloads\Utvardering\app\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi" type="drawable"/><file name="ic_launcher" path="D:\Downloads\Utvardering\app\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi" type="drawable"/><file name="adam" path="D:\Downloads\Utvardering\app\src\main\res\drawable-xhdpi\adam.png" qualifiers="xhdpi" type="drawable"/><file name="android" path="D:\Downloads\Utvardering\app\src\main\res\drawable-xhdpi\android.png" qualifiers="xhdpi" type="drawable"/><file name="f" path="D:\Downloads\Utvardering\app\src\main\res\drawable-xhdpi\f.png" qualifiers="xhdpi" type="drawable"/><file name="ic_launcher" path="D:\Downloads\Utvardering\app\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi" type="drawable"/><file name="images" path="D:\Downloads\Utvardering\app\src\main\res\drawable-xhdpi\images.png" qualifiers="xhdpi" type="drawable"/><file name="png" path="D:\Downloads\Utvardering\app\src\main\res\drawable-xhdpi\png.png" qualifiers="xhdpi" type="drawable"/><file name="png2" path="D:\Downloads\Utvardering\app\src\main\res\drawable-xhdpi\png2.png" qualifiers="xhdpi" type="drawable"/><file name="png3" path="D:\Downloads\Utvardering\app\src\main\res\drawable-xhdpi\png3.png" qualifiers="xhdpi" type="drawable"/><file name="png33" path="D:\Downloads\Utvardering\app\src\main\res\drawable-xhdpi\png33.png" qualifiers="xhdpi" type="drawable"/><file name="png333" path="D:\Downloads\Utvardering\app\src\main\res\drawable-xhdpi\png333.png" qualifiers="xhdpi" type="drawable"/><file name="sten" path="D:\Downloads\Utvardering\app\src\main\res\drawable-xhdpi\sten.png" qualifiers="xhdpi" type="drawable"/><file name="ic_launcher" path="D:\Downloads\Utvardering\app\src\main\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi" type="drawable"/><file name="activity_main" path="D:\Downloads\Utvardering\app\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="activity_main_quest0" path="D:\Downloads\Utvardering\app\src\main\res\layout\activity_main_quest0.xml" qualifiers="" type="layout"/><file name="activity_main_quest1" path="D:\Downloads\Utvardering\app\src\main\res\layout\activity_main_quest1.xml" qualifiers="" type="layout"/><file name="activity_main_quest2" path="D:\Downloads\Utvardering\app\src\main\res\layout\activity_main_quest2.xml" qualifiers="" type="layout"/><file name="activity_main_quest3" path="D:\Downloads\Utvardering\app\src\main\res\layout\activity_main_quest3.xml" qualifiers="" type="layout"/><file name="activity_main_quest4" path="D:\Downloads\Utvardering\app\src\main\res\layout\activity_main_quest4.xml" qualifiers="" type="layout"/><file name="main" path="D:\Downloads\Utvardering\app\src\main\res\menu\main.xml" qualifiers="" type="menu"/><file path="D:\Downloads\Utvardering\app\src\main\res\values\array.xml" qualifiers=""><string-array name="q2">
+        <item>@string/tom</item>
+        <item>@string/q61</item>
+        <item>@string/q62</item>
+        <item>@string/q63</item>
+        <item>@string/q64</item>
+    </string-array><string-array name="questions1">
+        <item>@string/questions1</item>
+        <item>@string/questions2</item>
+        <item>@string/questions3</item>
+        <item>@string/questions4</item>
+    </string-array><string-array name="q9">
+        <item>@string/q61</item>
+        <item>@string/q62</item>
+        <item>@string/q63</item>
+        <item>@string/q64</item>
+    </string-array><string-array name="q8">
+        <item>@string/q61</item>
+        <item>@string/q62</item>
+        <item>@string/q63</item>
+        <item>@string/q64</item>
+    </string-array><string-array name="q7">
+        <item>@string/q61</item>
+        <item>@string/q62</item>
+        <item>@string/q63</item>
+        <item>@string/q64</item>
+    </string-array><string-array name="q6">
+        <item>@string/q61</item>
+        <item>@string/q62</item>
+        <item>@string/q63</item>
+        <item>@string/q64</item>
+    </string-array><string-array name="q16">
+                        <item>@string/q61</item>
+                        <item>@string/q62</item>
+                        <item>@string/q63</item>
+                        <item>@string/q64</item>
+                    </string-array><string-array name="q5">
+        <item>@string/f</item>
+        <item>@string/m</item>
+    </string-array><string-array name="q4">
+        <item>@string/l1</item>
+        <item>@string/l2</item>
+        <item>@string/l3</item>
+        <item>@string/l4</item>
+    </string-array><string-array name="q3">
+        <item>@string/INFC16</item>
+        <item>@string/INFC15</item>
+        <item>@string/INFC14</item>
+    </string-array><string-array name="q14">
+                    <item>@string/q61</item>
+                    <item>@string/q62</item>
+                    <item>@string/q63</item>
+                    <item>@string/q64</item>
+            </string-array><string-array name="q15">
+                        <item>@string/q61</item>
+                        <item>@string/q62</item>
+                        <item>@string/q63</item>
+                        <item>@string/q64</item>
+                    </string-array><string-array name="q12">
+            <item>@string/q61</item>
+            <item>@string/q62</item>
+            <item>@string/q63</item>
+            <item>@string/q64</item>
+            </string-array><string-array name="q13">
+                <item>@string/q61</item>
+                <item>@string/q62</item>
+                <item>@string/q63</item>
+                <item>@string/q64</item>
+            </string-array><string-array name="q10">
+        <item>@string/q61</item>
+        <item>@string/q62</item>
+        <item>@string/q63</item>
+        <item>@string/q64</item>
+    </string-array><string-array name="q11">
+        <item>@string/q61</item>
+        <item>@string/q62</item>
+        <item>@string/q63</item>
+        <item>@string/q64</item>
+    </string-array></file><file path="D:\Downloads\Utvardering\app\src\main\res\values\Colors.xml" qualifiers=""><color name="Red">#0099CC</color><color name="White">#FFFFFF</color></file><file path="D:\Downloads\Utvardering\app\src\main\res\values\dimens.xml" qualifiers=""><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="activity_vertical_margin">16dp</dimen></file><file path="D:\Downloads\Utvardering\app\src\main\res\values\strings.xml" qualifiers=""><string name="title_section1">Fråga 1</string><string name="title_section3">Fråga 3</string><string name="title_section2">Fråga 2</string><string name="title_section5">Fråga 5</string><string name="title_section4">Fråga 4</string><string name="title_section6">Fråga 6</string><string name="questions3">Stämmer 	</string><string name="questions4">Stämmer inte alls</string><string name="questions1"> Stämmer helt</string><string name="questions2"> Stämmer</string><string name="tom"> </string><string name="INFC14">INFC14</string><string name="INFC16">INFC16</string><string name="question16">  Jag har, under kursens gång, fått tillräcklig information om hur jag ska gå till väga 
+för att förbättra mina studieresultat?</string><string name="INFC15">INFC15</string><string name="question15"> Jag har, under kursens gång, fått tillräcklig information om hur jag ligger till?</string><string name="question14">Läraren ger mig det stöd, den hjälp och uppmuntran jag behöver för att nå mina mål?</string><string name="question13">Läraren är bra på att förklara det som är svårt i undervisningen?</string><string name="question12">Läraren på kursen har lyckats skapa ett bra arbetsklimat där alla får komma till tals 
+och blir respekterade?</string><string name="question11"> Läraren på kursen organiserar undervisningen på ett bra sätt?</string><string name="question10">Jag känner att jag har haft ett verkligt inflytande över examinationerna (prov, 
+hemprov, muntligt, laborationer, fördjupningsarbeten etc…) på kursen</string><string name="question6">Jag är nöjd med min egen arbetsinsats på kursen   </string><string name="question7">Jag är nöjd med det jag har lärt mig på kursen</string><string name="question4">Vilken Lärare har du haft?</string><string name="action_settings">Settings</string><string name="l1">Anders Svensson</string><string name="question5">Välj ditt kön</string><string name="l3">Sten AskBlom</string><string name="l2">Karl Djurholt</string><string name="question8">Läromedlen på kursen har varit bra?</string><string name="l4">Björn Undén</string><string name="question9">Jag känner att jag har haft ett verkligt inflytande över hur vi jobbar på kursen?</string><string name="m">Pojke</string><string name="f">Flicka</string><string name="q14"/><string name="feedbackbody1"/><string name="q15"/><string name="q12"/><string name="q13"/><string name="q10"/><string name="q11"/><string name="question3">Vilken kurs har du läst?</string><string name="question2">Jag har tagit ett aktivt ansvar för mitt eget lärande på kursen</string><string name="q16"/><string name="question1">Jag har en bra uppfattning om de krav som ställts på mig utifrån kursmål och 
+kriterier?</string><string name="questask">Vad kunde du ha gjort bättre på kursen? </string><string name="q61"> Stämmer helt</string><string name="q62"> Stämmer</string><string name="feedbackbody"/><string name="q5"/><string name="q6"/><string name="q3"/><string name="q4"/><string name="q9"/><string name="q7"/><string name="q8"/><string name="feedbackresponse">Godkänn</string><string name="q21"> Stämmer helt</string><string name="app_name">Kursutvärdering</string><string name="feedbackbutton">Slutför</string><string name="q64">Stämmer inte alls</string><string name="q63">Stämmer inte</string></file><file path="D:\Downloads\Utvardering\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style></file><file path="D:\Downloads\Utvardering\app\src\main\res\values-sw720dp-land\dimens.xml" qualifiers="sw720dp-land"><dimen name="activity_horizontal_margin">128dp</dimen></file><file path="D:\Downloads\Utvardering\app\src\main\res\values-v11\styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style></file><file path="D:\Downloads\Utvardering\app\src\main\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style></file></source><source path="D:\Downloads\Utvardering\app\build\generated\res\rs\debug"/><source path="D:\Downloads\Utvardering\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug"><source path="D:\Downloads\Utvardering\app\src\debug\res"/></dataSet><mergedItems/></merger>

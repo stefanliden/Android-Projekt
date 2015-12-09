@@ -1,0 +1,109 @@
+<LinearLayout
+    android:layout_alignParentBottom="true"
+    android:layout_alignStart="@+id/editLength"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/textViewLength"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignBaseline="@+id/computeButton"
+            android:text="@string/length" />
+
+        <EditText
+            android:id="@+id/editLength"
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/computeButton"
+            android:layout_toEndOf="@id/textViewLength"
+            android:layout_toRightOf="@id/textViewLength"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/computeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/compute_button"
+            android:onClick="doComputeButton"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/textViewWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/resetButton"
+            android:text="@string/weight" />
+
+        <EditText
+            android:id="@+id/editWeight"
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/resetButton"
+            android:layout_toEndOf="@id/textViewWeight"
+            android:layout_toRightOf="@id/textViewWeight"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/reset_button"
+            android:onClick="doResetButton"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textViewBMI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bmi"
+            android:textSize="28sp"/>
+
+        <TextView
+            android:id="@+id/textViewResult"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textViewBMI"
+            android:layout_toEndOf="@id/textViewBMI"
+            android:layout_toRightOf="@id/textViewBMI"
+            android:paddingLeft="6dp"
+            android:text=""
+            android:textSize="28sp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

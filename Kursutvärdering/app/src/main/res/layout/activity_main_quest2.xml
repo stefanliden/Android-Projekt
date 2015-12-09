@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/f"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/question8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question8"
+            android:textColor="@color/White"
+            android:textSize="10pt" />
+
+        <Spinner
+            android:id="@+id/q8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Red"
+            android:entries="@array/q8"
+            android:prompt="@string/q8" />
+
+        <TextView
+            android:id="@+id/question9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question9"
+            android:textColor="@color/White"
+            android:textSize="10pt" />
+
+        <Spinner
+            android:id="@+id/q9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Red"
+            android:entries="@array/q9"
+            android:prompt="@string/q9" />
+        
+         <TextView
+             android:id="@+id/question10"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/question10"
+             android:textColor="@color/White"
+             android:textSize="10pt" />
+
+        <Spinner
+            android:id="@+id/q10"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Red"
+            android:entries="@array/q10"
+            android:prompt="@string/q10" />
+        
+           <TextView
+               android:id="@+id/question11"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/question11"
+               android:textColor="@color/White"
+               android:textSize="11pt" />
+
+        <Spinner
+            android:id="@+id/q11"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Red"
+            android:entries="@array/q11"
+            android:prompt="@string/q11" />
+        
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.stefan.submit1.Detail">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_add"
+        android:orderInCategory="102"
+        android:title="@string/action_add"
+        app:showAsAction="ifRoom"
+        android:onClick="addClicked"/>
+
+    <item
+        android:id="@+id/action_cancel"
+        android:orderInCategory="101"
+        android:title="@string/action_cancel"
+        app:showAsAction="ifRoom"
+        android:onClick="cancelClicked"/>
+</menu>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="questions1">
+        <item>@string/questions1</item>
+        <item>@string/questions2</item>
+        <item>@string/questions3</item>
+        <item>@string/questions4</item>
+    </string-array>
+    <string-array name="q2">
+        <item>@string/q61</item>
+        <item>@string/q62</item>
+        <item>@string/q63</item>
+        <item>@string/q64</item>
+    </string-array>
+    <string-array name="q3">
+        <item>@string/INFC16</item>
+        <item>@string/INFC15</item>
+        <item>@string/INFC14</item>
+    </string-array>
+    <string-array name="q4">
+        <item>@string/l1</item>
+        <item>@string/l2</item>
+        <item>@string/l3</item>
+        <item>@string/l4</item>
+    </string-array>
+    <string-array name="q5">
+        <item>@string/f</item>
+        <item>@string/m</item>
+    </string-array>
+    <string-array name="q6">
+        <item>@string/q61</item>
+        <item>@string/q62</item>
+        <item>@string/q63</item>
+        <item>@string/q64</item>
+    </string-array>
+    <string-array name="q7">
+        <item>@string/q61</item>
+        <item>@string/q62</item>
+        <item>@string/q63</item>
+        <item>@string/q64</item>
+    </string-array>
+    <string-array name="q8">
+        <item>@string/q61</item>
+        <item>@string/q62</item>
+        <item>@string/q63</item>
+        <item>@string/q64</item>
+    </string-array>
+    <string-array name="q9">
+        <item>@string/q61</item>
+        <item>@string/q62</item>
+        <item>@string/q63</item>
+        <item>@string/q64</item>
+    </string-array>
+    <string-array name="q10">
+        <item>@string/q61</item>
+        <item>@string/q62</item>
+        <item>@string/q63</item>
+        <item>@string/q64</item>
+    </string-array>
+    <string-array name="q11">
+        <item>@string/q61</item>
+        <item>@string/q62</item>
+        <item>@string/q63</item>
+        <item>@string/q64</item>
+    </string-array>
+        
+        <string-array name="q12">
+            <item>@string/q61</item>
+            <item>@string/q62</item>
+            <item>@string/q63</item>
+            <item>@string/q64</item>
+            </string-array>
+            
+            <string-array name="q13">
+                <item>@string/q61</item>
+                <item>@string/q62</item>
+                <item>@string/q63</item>
+                <item>@string/q64</item>
+            </string-array>
+                
+                <string-array name="q14">
+                    <item>@string/q61</item>
+                    <item>@string/q62</item>
+                    <item>@string/q63</item>
+                    <item>@string/q64</item>
+            </string-array>
+                    
+                    <string-array name="q15">
+                        <item>@string/q61</item>
+                        <item>@string/q62</item>
+                        <item>@string/q63</item>
+                        <item>@string/q64</item>
+                    </string-array>
+                    
+                     <string-array name="q16">
+                        <item>@string/q61</item>
+                        <item>@string/q62</item>
+                        <item>@string/q63</item>
+                        <item>@string/q64</item>
+                    </string-array>
+
+</resources>

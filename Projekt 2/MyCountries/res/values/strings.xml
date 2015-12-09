@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Start</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_button_name">Add Country</string>
+    <string name="sort_ascending_by_year">Sort Ascending by Year</string>
+    <string name="sort_descending_by_year">Sort Descending by Year</string>
+    <string name="sort_ascending_by_country">Sort Ascending by Country</string>
+    <string name="sort_descending_by_country">Sort Descending by Country</string>
+    <string name="add_country_title">Add Country</string>
+    <string name="year_title">Year</string>
+    <string name="country_title">Country</string>
+    <string name="insert_data">Insert</string>
+    <string name="update_title">Update Country</string>
+    <string name="update_data">Update</string>
+    <string name="title_activity_add_new_country">AddNewCountry</string>
+    <string name="title_activity_update_country">UpdateCountry</string>
+    <string name="preferences_title">Preferences</string>
+    <string name="title_activity_preferences">Preferences</string>
+    <string name="background_color">Background Color</string>
+    <string name="font_color">Font Color</string>
+    <string name="font_size">Font Size</string>
+    <string name="return_title">Return</string>
+
+</resources>
